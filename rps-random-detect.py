@@ -49,7 +49,7 @@ class rps():
 class game():
 
     def online(self, id, mode):
-        url = 'http://localhost:4441'
+        url = 'http://rps-server:4441'
         data = rps().randomrps()
         while True:
             if (mode == 1):
